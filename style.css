@@ -1,0 +1,25 @@
+h1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #ffc;
+  font-size: 40px;
+  text-align: center;
+}
+body {
+  background-color: #454545;
+}
+li {
+  list-style: none;
+}
+.imgSize {
+  height: 200px;
+  padding: 2.5%;
+}
+.flex {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+}
