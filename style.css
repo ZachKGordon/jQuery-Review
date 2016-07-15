@@ -1,19 +1,24 @@
 h1 {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 4.5%;
+  padding-bottom: 2.5%;
   color: #ffc;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
+  font-family: 'Open Sans';
 }
 body {
   background-color: #454545;
 }
 li {
   list-style: none;
+  padding: 2.5%;
 }
 .imgSize {
   height: 200px;
-  padding: 2.5%;
+  box-shadow: 2px 2px 10px #808080;
+}
+.imgSize:hover {
+  box-shadow: 2px 2px 10px #ffc;
 }
 .flex {
   display:flex;
